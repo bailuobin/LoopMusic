@@ -1,0 +1,51 @@
+@-webkit-keyframes fade-in {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #121212;
+  }
+}
+@keyframes fade-in {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #121212;
+  }
+}
+@-webkit-keyframes fade-out {
+  0% {
+    background-color: #121212;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+@keyframes fade-out {
+  0% {
+    background-color: #121212;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+.my-fade-in {
+  -webkit-animation-name: fade-in;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s;
+  /* Chrome, Safari, Opera */
+  animation-name: fade-in;
+  animation-duration: 1s;
+}
+
+.my-fade-out {
+  -webkit-animation-name: fade-out;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s;
+  /* Chrome, Safari, Opera */
+  animation-name: fade-out;
+  animation-duration: 1s;
+}
+
+/*# sourceMappingURL=myanim.css.map */

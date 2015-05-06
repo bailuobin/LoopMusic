@@ -1,0 +1,46 @@
+// this is a scss file
+
+/* General Part */
+@import "general";
+
+/* Navigation Part */
+@import "navi";
+
+/* Jumbotron Part */
+@import "jumbotron";
+
+
+/* Team Summary Part */
+.team-summary{
+position: relative;
+width: 100%;
+height: 350px;
+background: rgba(120, 120, 120, 0.6);
+}
+
+/* Team Members Part */
+.team-members{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background: rgba(50, 50, 50, 0.8);
+	text-align: center;
+	padding-top: 50px;
+
+		.member{
+		width: 220px;
+		height: 600px;
+		background: #cccccc;
+		display: inline-block;
+		opacity: 1;
+		margin-left: 5px;
+		}
+}
+
+
+
+
+
+
+
+

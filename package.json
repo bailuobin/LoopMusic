@@ -1,0 +1,28 @@
+{
+  "name": "loopmusic",
+  "version": "1.0.0",
+  "author": "Luobin Bai",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bailuobin/LoopMusic.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bailuobin/LoopMusic/issues"
+  },
+  "homepage": "https://github.com/bailuobin/LoopMusic",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat":         "*",
+    "grunt-contrib-jshint":         "*",
+    "grunt-contrib-connect":        "*",
+    "grunt-contrib-cssmin":         "*",
+    "grunt-contrib-sass":           "*",
+    "grunt-contrib-uglify":         "*",
+    "grunt-contrib-watch":          "*",
+    "grunt-cssc":                   "*",
+    "grunt-htmlhint":               "*",
+    "matchdep":                     "*"
+  }
+}

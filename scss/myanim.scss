@@ -1,0 +1,37 @@
+$navi-color: #121212;
+$navi-transparent: transparent;
+
+
+@-webkit-keyframes fade-in {
+    0%   {background-color: $navi-transparent;}
+    100% {background-color: $navi-color;}
+}
+
+@keyframes fade-in {
+    0%   {background-color: $navi-transparent;}
+    100% {background-color: $navi-color;}
+}
+
+@-webkit-keyframes fade-out {
+    0%   {background-color: $navi-color;}
+    100% {background-color: $navi-transparent;}
+}
+
+@keyframes fade-out {
+    0%   {background-color: $navi-color;}
+    100% {background-color: $navi-transparent;}
+}
+
+.my-fade-in{
+    -webkit-animation-name: fade-in; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+.my-fade-out{
+    -webkit-animation-name: fade-out; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: fade-out;
+    animation-duration: 1s;
+}

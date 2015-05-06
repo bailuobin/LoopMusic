@@ -1,0 +1,55 @@
+$navi-bc: rgb(18, 18, 18);
+
+.navi{
+	width: 100%;
+	height: 100px;
+	background-color: $navi-bc;
+	z-index: 999;
+
+	ul{
+		margin: 0px;
+		padding: 0px;
+		height: 100px;
+		float: right;
+		margin-right: 100px;
+
+		li{
+			display: inline-block;
+			font-family: 'Raleway', sans-serif;
+			font-size: 18px;
+			margin-left: 50px;
+			/* codes below to make it vertically center */
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+
+			a{
+				&:link{
+					color: #ffffff;
+					text-decoration: none;
+				}
+
+				&:visited{
+					color: #ffffff;
+					text-decoration: none;
+				}
+
+				&:hover{
+					color: #ffffff;
+					text-decoration: none;
+				}
+
+				&:active{
+					color: #ffffff;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+}
+
+
+
+
+

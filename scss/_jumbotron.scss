@@ -1,0 +1,16 @@
+.jumbotron{
+	position: fixed;
+	z-index: -999;
+
+	video{
+		position: fixed;
+		margin-top: -80px;
+		width: 100%;
+	}
+
+	img{
+		position: fixed;
+		margin-top: -80px;
+		width: 100%;
+	}
+}

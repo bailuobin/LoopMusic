@@ -1,0 +1,61 @@
+/* General Part */
+@import "general";
+
+/* Navigation Part */
+@import "navi";
+.navi{
+	background-color: transparent;
+	position:fixed;
+}
+
+/* Jumbotron Part */
+@import "jumbotron";
+
+
+/* Space Part */
+.space{
+position: relative;
+width: 100%;
+height: 800px;
+background: transparent;
+}
+
+/* Team Part */
+.team{
+position: relative;
+width: 100%;
+height: 400px;
+background: #ffffff;
+opacity: 0.6;
+}
+
+/* Works Part */
+.works{
+position: relative;
+width: 100%;
+height: 600px;
+background: #ffffff;
+opacity: 0.4;
+}
+
+/* Contact Part */
+.contact{
+position: relative;
+width: 100%;
+height: 600px;
+background: #000000;
+opacity: 0.4;
+}
+
+/* Copyright Part */
+.copyright{
+position: relative;
+width: 100%;
+height: 200px;
+background: #000000;
+opacity: 0.8;
+}
+
+
+
+
